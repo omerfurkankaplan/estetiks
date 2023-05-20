@@ -6,8 +6,8 @@ import uvicorn, aiohttp, asyncio
 from io import BytesIO
 from fastai2.vision.all import *
 
-model_file_url = 'https://www.dropbox.com/s/cann0uiyobvr26q/export.pkl?dl=1'
-model_file_name = 'export.pkl'
+model_file_url = 'https://www.dropbox.com/s/4h1kjt51wos43fw/EstetikliEstetiksizResNet50-100EpochValid10CokDataNewTestDataExp.pkl?dl=1'
+model_file_name = 'EstetikliEstetiksizResNet50-100EpochValid10CokDataNewTestDataExp.pkl'
 path = Path(__file__).parent
 
 app = Starlette()
